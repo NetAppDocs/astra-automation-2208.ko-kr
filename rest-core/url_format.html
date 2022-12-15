@@ -1569,7 +1569,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-21 20:17:23 +0000">11/21/2022</time>
+    <time datetime="2022-12-15 15:01:04 +0000">12/15/2022</time>
     
   
 
@@ -1583,9 +1583,11 @@
 <p>REST API를 통해 리소스 인스턴스 또는 컬렉션에 액세스하는 데 사용되는 URL의 일반 구조는 여러 값으로 구성됩니다. 이 구조체는 기본 개체 모델 및 시스템 설계를 반영합니다.</p>
 </div>
 <div class="paragraph">
+<div class="title">root로 계정을 지정합니다</div>
 <p>모든 REST 끝점에 대한 리소스 경로의 루트는 Astra 계정입니다. 따라서 URL의 모든 경로는 로 시작합니다 <code>/account/{account_id}</code> 위치 <code>account_id</code> 계정에 대한 고유한 UUIDv4 값입니다. 내부 구조 모든 리소스 액세스가 특정 계정을 기반으로 하는 설계를 반영합니다.</p>
 </div>
 <div class="paragraph">
+<div class="title">끝점 리소스 범주입니다</div>
 <p>Astra 리소스 끝점은 세 가지 범주로 나뉩니다.</p>
 </div>
 <div class="ulist">
@@ -1605,9 +1607,11 @@
 <p>을 참조하십시오 <a href="../endpoints/resources.html">"리소스"</a> 를 참조하십시오.</p>
 </div>
 <div class="paragraph">
+<div class="title">카테고리 버전</div>
 <p>세 가지 리소스 범주 각각에는 액세스한 리소스의 버전을 제어하는 전역 버전이 있습니다. 규칙 및 정의에 따라 리소스 범주의 새로운 주 버전(예: 에서)으로 이동합니다 <code>/v1</code> 를 선택합니다 <code>/v2</code>)는 API의 변경 사항을 깨는 방법을 소개합니다.</p>
 </div>
 <div class="paragraph">
+<div class="title">리소스 인스턴스 또는 컬렉션입니다</div>
 <p>리소스 인스턴스 또는 컬렉션 액세스 여부에 따라 경로에서 리소스 형식과 식별자의 조합을 사용할 수 있습니다.</p>
 </div>
 <div class="ulist">
