@@ -903,7 +903,6 @@
   <block id="cea5f66f37995fb196323018a31600fc" category="cell">새로 만든 리소스의 전체 URL을 포함합니다.</block>
   <block id="6e2102ce7d7573c8b221194a86f7a48b" category="section-title">쿼리 매개 변수</block>
   <block id="7fec4843ebac2572cb7aba56b67d7ddb" category="inline-link-macro">컬렉션 작업</block>
-  <block id="b206801753ef0a6abfae5904e5c68a57" category="paragraph">다음 쿼리 매개 변수를 리소스 모음과 함께 사용할 수 있습니다. 을 참조하십시오 <block ref="114f30b2f00431234237350f516a01cf" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="ce73e1ed10f91fd167ae3d5803ce8dff" category="cell">쿼리 매개 변수입니다</block>
   <block id="4d0d3b0c69167fef7204e14c4e946c15" category="cell">컬렉션을 읽을 때 반환되어야 하는 필드를 포함합니다.</block>
   <block id="c6960e489ca14167f9bd9ace657e6790" category="cell">컬렉션을 읽을 때 반환할 리소스에 대해 일치해야 하는 필드를 나타냅니다.</block>
@@ -916,7 +915,6 @@
   <block id="16bd6f56e0279353c2bf47e3b1d13c41" category="cell">메타데이터 개체에서 총 리소스 수를 반환해야 하는지 여부를 나타냅니다.</block>
   <block id="2974f783f17d54a41f4040c8daa90545" category="section-title">HTTP 상태 코드입니다</block>
   <block id="175b29f6f8dd1aa8a166427b6bcd061c" category="paragraph">Astra Control REST API에서 사용하는 HTTP 상태 코드는 아래와 같다.</block>
-  <block id="ef69df9e80d5e1591d22bfe189aa737e" category="admonition">Astra Control REST API는 HTTP API * 표준에 대한 * Problem Details도 사용합니다. 을 참조하십시오 <block ref="d9c154af7dec160f41ead610ccb970e9" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="ca0dbad92a874b2f69b549293387925e" category="cell">코드</block>
   <block id="7277de5f2ed6f17c61f1f25594591a82" category="cell">의미</block>
   <block id="3644a684f98ea8fe223c713b77189a77" category="cell">200</block>
@@ -1077,4 +1075,6 @@
   <block id="2808a34767e19b842d906ab8ab6264c6" category="paragraph-title">정렬</block>
   <block id="cbb81506a7fe3ef03f7a89c76c52131a" category="paragraph-title">페이지 매김</block>
   <block id="e93f994f01c537c4e2f7d8528c3eb5e9" category="paragraph-title">카운트</block>
+  <block id="c41fa1ca9e61ce922033f50c259cb7a3" category="paragraph">다음 쿼리 매개 변수를 리소스 모음과 함께 사용할 수 있습니다. 을 참조하십시오 <block ref="69d3926f8a91301f2a5a5c3d61b27821" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="d9a8eedd670f58ed76d5ae881e6d4469" category="admonition">Astra Control REST API는 HTTP API * 표준에 대한 * Problem Details도 사용합니다. 을 참조하십시오 <block ref="e560597744bc7b2711ae89c683c4035f" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
 </blocks>
